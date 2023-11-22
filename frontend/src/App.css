@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.musicapp {
+  display: flex;
+  background-color: black;
+  height: 100vh;
+}
+
+.btnLog {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}

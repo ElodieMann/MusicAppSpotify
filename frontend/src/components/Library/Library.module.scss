@@ -1,0 +1,76 @@
+.library {
+  color: white;
+  padding: 15px;
+  background-color: #121212;
+  width: 30vw;
+  font-size: 1.3rem;
+  height: auto;
+  border-radius: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 1.3rem;
+  margin-left: 10px;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.btnLibrary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnData {
+  background-color: rgba(255, 255, 255, 0.088);
+  font-size: 0.8rem;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.grid {
+  height: 70vh;
+    font-size: 0.8rem;
+    overflow-y: auto;
+}
+
+
+.gridLibrary,  .gridRow {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+  }
+.gridLibrary {
+    border-bottom: 1px solid white;
+    
+  }
+
+  .gridItem  {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+  }
+  .gridItem img {
+    width: 20%;
+  }
+
+  .gridRow:hover {
+    background-color: rgba(255, 255, 255, 0.208);
+  }
